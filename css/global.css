@@ -1,0 +1,32 @@
+@import './index.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-page: #8d3f18;
+    --bg-calc: #2D2A37;
+    --bg-buttonEqual: #db5100;
+
+    --c-txt: #EBEBEB;
+    --c-text-clean: #db5100;
+
+    --ff-txt: 'Rubik', sans-serif;
+
+    font-size: 62.5%;
+}
+
+.page{
+    background: var(--bg-page);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
